@@ -32,3 +32,11 @@ sass:
 author:
   name: aflim
   email: aflim@outlook.co.id
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
