@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>
+      {% if page.url == {{ 'index.html' | relative_url }} %}
+        {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
+      {% else %}
+        {{ page.title }} &middot; {{ site.title }}
+      {% endif %}
+    </title>
+    
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
+    
+    <link rel="stylesheet" href="{{ '/assets/stylesheet.css' | relative_url }}">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/asset/apple-touch-icon.png' | relative_url }} ">
+    <link rel="icon" type="image/png" sizes="512x512" href="{{ '/assets/android-chrome-512x512.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/android-chrome-192x192.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}">
+    <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+  </head>
+  
+  <body>
+    <header>
+      <a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
+    </header>
+    
+    <main>
+      {{ content }}
+    </main>
+    
+    <footer>
+      <small>
+        &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+      </small>
+    </footer>
+    
+  </body>
+</html>
