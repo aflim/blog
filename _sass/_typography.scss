@@ -123,9 +123,8 @@ pre {
     margin-inline: 0;
   }
 }
-/*
+
 .rouge-table {
-  padding: 0;
   margin-block-end: 0;
   font-size: 100%;
 
@@ -141,7 +140,11 @@ pre {
     opacity: .25;
   }
 }
-*/
+
+.lineo {
+  padding: 0;
+}
+
 table {
   margin-block-end: $spacer-base;
   width: 100%;
