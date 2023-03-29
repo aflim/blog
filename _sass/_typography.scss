@@ -121,13 +121,11 @@ pre {
   }
   
   .highlight {
-    margin-inline: 0;
+    padding: 0;
   }
 }
 
 .rouge-table {
-  padding: 0;
-  margin: 0;
   font-size: 100%;
 
   &,
@@ -142,12 +140,12 @@ pre {
     opacity: .25;
   }
 }
-
+/*
 .lineno {
   padding: 0;
   margin: 0;
 }
-
+*/
 table {
   margin-block-end: $spacer-base;
   width: 100%;
