@@ -118,6 +118,28 @@ pre {
   pre {
     padding: $spacer-base;
   }
+  
+  .highlight {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.rouge-table {
+  margin-block-end: 0;
+  font-size: 100%;
+
+  &,
+  td,
+  th {
+    border: 0;
+  }
+
+  .gutter {
+    vertical-align: top;
+    user-select: none;
+    opacity: .25;
+  }
 }
 
 table {
