@@ -33,4 +33,21 @@
   --border-1: var(--border-on-light-1);
   --border-2: var(--border-on-light-2);
   --border-3: var(--border-on-light-3);
+  
+  --line-height-base: 1.5;
+  --line-height-sm: 1.25;
+  
+  --type-scale-down-1: .9em;
+  --type-scale-base: 1em;
+  --type-scale-up-1: 1.25em;
+  --type-scale-up-2: 1.5em;
+  --type-scale-up-3: 1.8em;
+  
+  --spacer-base: 1em;
+  --spacer-1: calc(var(--spacer-base) * 1.5);
+  --spacer-2: calc(var(--spacer-base) * 2);
+  --spacer-3: calc(var(--spacer-base) * 3);
+  
+  --breakpoint-md: 560px;
+  --breakpoint-lg: 990px;
 }
