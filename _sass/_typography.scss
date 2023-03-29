@@ -1,1 +1,81 @@
 /* some comment */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0;
+  margin-block-end: .5em;
+  font-weight: 700;
+  line-height: var(--line-height-sm);
+}
+
+
+h1 {
+  font-size: var(--type-scale-up-3);
+}
+
+h2 {
+  font-size: var(--type-scale-up-2);
+}
+  
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--type-scale-up-1);
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 1em;
+  font-size: var(--type-scale-base);
+}
+
+ul,
+ol,
+dl {
+  margin-block-start: 0;
+  margin-block-end: 1em;
+}
+
+dt {
+  font-weight: bolder;
+}
+
+dd {
+  margin-inline: 0;
+  margin-block-end: .75rem;
+}
+
+hr {
+  position: relative;
+  margin-block: var(--spacer-1);
+  border: 0;
+  border-block-start: 1px solid var(--border-1);
+}
+
+abbr {
+  font-size: 85%;
+  font-weight: bolder;
+  color: inherit;
+  text-transform: uppercase;
+
+  &[title] {
+    cursor: help;
+    border-block-end: 1px dotted var(--border-1);
+  }
+}
+
+blockquote {
+  color: var(--var-ink-2);
+}
+
+
+
+
+
+  
+  
