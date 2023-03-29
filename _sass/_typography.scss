@@ -108,7 +108,7 @@ code {
 
 pre {
   display: block;
-  margin: 0;
+  margin-block-end: $spacer-base;
   overflow: auto;
 }
 
