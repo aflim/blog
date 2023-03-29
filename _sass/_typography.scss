@@ -36,6 +36,7 @@ p {
 
 ul,
 ol {
+  padding-inline-start: 0;
   margin-block-start: 0;
   margin-block-end: 1em;
   
@@ -99,6 +100,11 @@ blockquote {
   }
 }
 
+code {
+  font-family: monospace;
+  font-size: 95%;
+}
+
 pre {
   display: block;
   margin-block: 0;
@@ -106,6 +112,7 @@ pre {
 }
 
 .highlight {
+  margin-inline: (-$spacer-base);
   background-color: $bg-2;
 }
 
