@@ -41,6 +41,11 @@ dl {
   margin-block-end: 1em;
 }
 
+ul li,
+ol li {
+  margin-inline-start: $spacer-base;
+}
+
 dt {
   font-weight: bolder;
 }
@@ -66,6 +71,10 @@ abbr {
     cursor: help;
     border-block-end: 1px dotted $border-1;
   }
+}
+
+figure {
+  margin-block-end: $spacer-base;
 }
 
 blockquote {
