@@ -36,11 +36,12 @@ p {
 
 ul,
 ol {
-  margin-block-start: 1em;
+  margin-block-start: 0;
   margin-block-end: 1em;
   
   li {
     padding-inline-start: $spacer-base;
+    margin-block-end: .5em;
   }
 }
 
@@ -72,7 +73,7 @@ abbr {
 
   &[title] {
     cursor: help;
-    border-block-end: 1px dotted red;
+    border-block-end: 1px dotted $border-1;
   }
 }
 
