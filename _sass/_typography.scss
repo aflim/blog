@@ -41,7 +41,7 @@ ol {
   margin-block-end: 1em;
   
   li {
-    padding-inline-start: $spacer-base;
+    padding-inline-start: .5em;
     margin-inline-start: $spacer-base;
     margin-block-end: .5em;
   }
@@ -113,7 +113,11 @@ pre {
 
 .highlight {
   margin-inline: (-$spacer-base);
-  background-color: $bg-2;
+  background-color: $bg-3;
+    
+  pre {
+    padding: $spacer-base;
+  }
 }
 
 
