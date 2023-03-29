@@ -54,7 +54,7 @@ hr {
   position: relative;
   margin-block: var(--spacer-1);
   border: 0;
-  border-top: 1px solid var(--border-1);
+  border-block-start: 1px solid red;
 }
 
 abbr {
@@ -71,7 +71,7 @@ abbr {
 blockquote {
   padding-inline-start: 1em;
   margin-inline: 0;
-  color: var(--ink-2);
+  color: red;
   border-inline-start: .25em solid var(--border-2);
   
   p:last-child {
