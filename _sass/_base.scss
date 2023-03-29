@@ -1,7 +1,10 @@
-// base style
+/* base style */
+
 body {
   font-family: sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  color: var(--ink-1);
+  background-color: var(--bg-1);
 }
