@@ -133,7 +133,8 @@ Someone said:
 </figure>
 
 ## Preformatted text
-<pre>
+<figure>
+  <pre>
 // Example can be run directly in your JavaScript console
 
 // Create a function that takes two arguments and returns the sum of those arguments
@@ -142,8 +143,26 @@ var adder = new Function("a", "b", "return a + b");
 // Call the function
 adder(2, 6);
 // > 8
-</pre>
+  </pre>
+</figure>
 
+<figure>
+  <pre role="img" aria-label="ASCII COW">
+      ___________________________
+  &lt; I'm an expert in my field. &gt;
+      ---------------------------
+          \   ^__^
+           \  (oo)\_______
+              (__)\       )\/\
+                  ||----w |
+                  ||     ||
+  </pre>
+  <figcaption id="cow-caption">
+    A cow saying, "I'm an expert in my field." The cow is illustrated using
+    preformatted text characters.
+  </figcaption>
+</figure>
+  
 ## Code snippets via rouge
 {% highlight js %}
 // Example can be run directly in your JavaScript console
