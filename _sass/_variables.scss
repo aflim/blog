@@ -1,15 +1,16 @@
 // some comment
 
 :root {
-  --bg-light-1:
-  --bg-light-2:
-  --bg-light-3:
-  --ink-on-light-1:
-  --ink-on-light-2:
-  --ink-on-light-3:
-  --border-light-1:
-  --border-light-2:
-  --border-light-3:
+  --bg-light-1: hsl(0, 0%, 91.37%);
+  --bg-light-2: hsl(0, 0%, 73.73%);
+  --bg-light-3: hsl(0, 0%, 56.47%);
+  --ink-on-light-1: hsl(0, 0%, 5.1%);
+  --ink-on-light-2: hsl(0, 0%, 7.84%);
+  --ink-on-light-3: hsl(0, 0%, 10.2%);
+  --border-light-1: hsl(0, 0%, 35.29%);
+  --border-light-2: hsl(0, 0%, 27.84%);
+  --border-light-3: hsl(0, 0%, 20.39%);
+  /*
   --bg-info-on-light:
   --bg-success-on-light:
   --bg-warning-on-light:
@@ -22,4 +23,5 @@
   --border-success-on-light:
   --border-warning-on-light:
   --border-danger-on-light:
+  */
 }
