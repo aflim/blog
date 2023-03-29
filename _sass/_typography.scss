@@ -6,7 +6,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-block-start: 1.5em;
+  margin-block-start: 1em;
   margin-block-end: .25em;
   font-weight: 700;
   line-height: var(--line-height-sm);
@@ -54,7 +54,7 @@ hr {
   position: relative;
   margin-block: var(--spacer-1);
   border: 0;
-  border-block-start: 1px solid var(--border-1);
+  border-top: 1px solid var(--border-1);
 }
 
 abbr {
