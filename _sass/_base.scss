@@ -8,3 +8,24 @@ body {
   color: var(--ink-1);
   background-color: var(--bg-1);
 }
+
+
+a {
+  color: currentColor;
+  
+  &:hover,
+  &:focus {
+    color: var(--ink-2);
+  }
+  
+  strong {
+    color: inherit;
+  }
+}
+
+img,
+video,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+}
