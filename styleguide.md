@@ -18,9 +18,9 @@ Limit heading to three level
 - Third list item
 
 ## Ordered list
-1 First list item
-2 Second list item
-3 Third list item
+1. First list item
+2. Second list item
+3. Third list item
 
 ## Definition list
 <dl>
