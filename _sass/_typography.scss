@@ -35,29 +35,32 @@ p {
 }
 
 ul,
-ol,
+ol {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  
+  li {
+    padding-inline-start: $spacer-base;
+  }
+}
+
 dl {
   margin-block-start: 0;
   margin-block-end: 1em;
-}
-
-ul li,
-ol li {
-  padding-inline-start: $spacer-base;
-}
-
-dt {
+  
+  dt {
   font-weight: bolder;
-}
-
-dd {
+  }
+  
+  dd {
   margin-inline: 0;
   margin-block-end: .5em;
+  }
 }
 
 hr {
   position: relative;
-  margin-block: $spacer-base;
+  margin-block: $spacer-1;
   border: 0;
   border-block-start: 1px solid $border-1;
 }
@@ -69,13 +72,18 @@ abbr {
 
   &[title] {
     cursor: help;
-    border-block-end: 1px dotted $border-1;
+    border-block-end: 1px dotted red;
   }
 }
 
 figure {
   margin-inline: 0;
   margin-block-end: $spacer-base;
+  
+  figcaption {
+    font-size: $type-scale-down-1;
+    color: $ink-2;
+  }
 }
 
 blockquote {
@@ -91,6 +99,7 @@ blockquote {
 
 pre {
   display: block;
+  margin-block-end: 0;
   overflow: auto;
 }
 
