@@ -30,9 +30,9 @@ $type-scale-up-2: 1.5em;
 $type-scale-up-3: 1.8em;
   
 $spacer-base: 1em;
-$spacer-1: calc($spacer-base) * 1.5);
-$spacer-2: calc($spacer-base) * 2);
-$spacer-3: calc($spacer-base) * 3);
+$spacer-1: ($spacer-base * 1.5);
+$spacer-2: ($spacer-base * 2);
+$spacer-3: ($spacer-base * 3);
   
 $breakpoint-md: 560px;
 $breakpoint-lg: 990px;
