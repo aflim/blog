@@ -43,7 +43,7 @@ dl {
 
 ul li,
 ol li {
-  margin-inline-start: $spacer-base;
+  padding-inline-start: $spacer-base;
 }
 
 dt {
@@ -89,6 +89,10 @@ blockquote {
   }
 }
 
+pre {
+  display: block;
+  overflow: auto;
+}
 
 
 
