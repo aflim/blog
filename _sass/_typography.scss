@@ -167,20 +167,6 @@ tfoot tr {
   }
 }
 
-tbody td,
-tfoot td {
-  padding: .5em;
-  border-color: inherit;
-  border-style: solid;
-  border-width: 0;
-  border-inline-end-width: 1px;
-  
-  &:last-child {
-    border-inline-end-width: 0;
-  }
-}
-
-/*
 td,
 th {
   padding: .5em;
@@ -197,7 +183,7 @@ th {
 thead th {
   border-bottom-color: currentColor;
 }
-*/
+
 mark {
   padding: .05em .10em;
   background-color: yellow;
