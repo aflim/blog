@@ -105,7 +105,7 @@ blockquote {
 code,
 pre {
   font-family: monospace;
-  font-size: $type-scale-down-1;
+  font-size: 95%;;
 }
 
 pre {
@@ -117,7 +117,8 @@ pre {
 
 .highlight {
   padding: $spacer-base;
-  margin-inline: $spacer-base;
+  margin-inline: 0;
+  margin-block-end: $spacer-base;
   background-color: $bg-2;
   
   .highlight {
