@@ -10,6 +10,7 @@ h6 {
   margin-block-end: .25em;
   font-weight: 700;
   line-height: $line-height-sm;
+  color: $ink-2;
 }
 
 
@@ -110,6 +111,7 @@ pre {
   display: block;
   margin-block-end: $spacer-base;
   overflow: auto;
+  color: $ink-2;
 }
 
 .highlight {
@@ -122,6 +124,12 @@ pre {
   
   .highlight {
     margin-inline: 0;
+  }
+  
+  .rouge-table,
+  .lineno {
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -141,30 +149,11 @@ pre {
   }
 }
 
-.rouge-table,
-.lineno {
-  padding: 0;
-  margin: 0;
-}
-
-
 table {
   margin-block-end: $spacer-base;
   width: 100%;
   border: 0 solid $border-1;
   border-collapse: collapse;
-}
-
-tbody tr,
-tfoot tr {
-  border-color: inherit;
-  border-style: solid;
-  border-width: 0;
-  border-block-end-width: 1px;
-  
-  &:last-child {
-    border-block-end-width: 0;
-  }
 }
 
 td,
