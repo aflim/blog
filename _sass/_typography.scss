@@ -104,14 +104,13 @@ blockquote {
 
 code {
   font-family: monospace;
-  font-size: 95%;
+  font-size: $type-scale-down-1;
 }
 
 pre {
   display: block;
   margin-block-end: $spacer-base;
   overflow: auto;
-  font-size: $type-scale-down-1;
   color: $ink-2;
 }
 
@@ -124,6 +123,7 @@ pre {
   }
   
   .highlight {
+    padding: 0;
     margin-inline: 0;
   }
 }
