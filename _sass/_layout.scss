@@ -3,7 +3,7 @@
   padding-inline: var(--spacer-base);
   margin-inline: auto;
   
-  @media all and (min-width: var(--breakpoint-sm)) {
+  @media all and (min-width: 576px) {
     max-inline-size: 750px;
   }
 }
