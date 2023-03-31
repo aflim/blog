@@ -65,7 +65,7 @@ hr {
   position: relative;
   margin-block: var(--spacer-up-1);
   border: 0;
-  border-block-start: 1px solid var(--border-ink-2);
+  border-block-start: 1px solid var(--border-ink-1);
 }
 
 abbr {
@@ -155,7 +155,7 @@ pre {
 table {
   margin-block-end: var(--spacer-base);
   width: 100%;
-  border: 0 solid var(--border-ink-2);
+  border: 0 solid var(--border-ink-1);
   border-collapse: collapse;
 }
 
