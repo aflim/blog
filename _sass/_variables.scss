@@ -38,18 +38,18 @@ $breakpoint-md: 560px;
 $breakpoint-lg: 990px;
 
 
-/* 
+
 :root {
-  --bg-light-1: hsl(0, 0%, 91.37%);
-  --bg-light-2: hsl(0, 0%, 73.73%);
-  --bg-light-3: hsl(0, 0%, 56.47%);
-  --ink-on-light-1: hsl(0, 0%, 5.1%);
-  --ink-on-light-2: hsl(0, 0%, 7.84%);
-  --ink-on-light-3: hsl(0, 0%, 10.2%);
-  --border-light-1: hsl(0, 0%, 35.29%);
-  --border-light-2: hsl(0, 0%, 27.84%);
-  --border-light-3: hsl(0, 0%, 20.39%);
-  
+  --bg-light-1: hsl(0, 0%, 100%);
+  --bg-light-2: hsl(0, 0%, 98.43%);
+  --bg-light-3: hsl(0, 0%, 96.86%);
+  --ink-on-light-1: hsl(0, 0%, 16.86%);
+  --ink-on-light-2: hsl(0, 0%, 34.12%);
+  --ink-on-light-3: hsl(0, 0%, 59.61%);
+  --border-ink-on-light-1: hsl(0, 0%, 53.73%);
+  --border-ink-on-light-2: hsl(0, 0%, 64.31%);
+  --border-ink-on-light-3: hsl(0, 0%, 74.51%);
+  /*
   --bg-info-on-light:
   --bg-success-on-light:
   --bg-warning-on-light:
@@ -62,32 +62,34 @@ $breakpoint-lg: 990px;
   --border-success-on-light:
   --border-warning-on-light:
   --border-danger-on-light:
-  
+  */
   --bg-1: var(--bg-light-1);
   --bg-2: var(--bg-light-2);
   --bg-3: var(--bg-light-3);
   --ink-1: var(--ink-on-light-1);
   --ink-2: var(--ink-on-light-2);
   --ink-3: var(--ink-on-light-3);
-  --border-1: var(--border-on-light-1);
-  --border-2: var(--border-on-light-2);
-  --border-3: var(--border-on-light-3);
+  --border-ink-1: var(--border-ink-on-light-1);
+  --border-ink-2: var(--border-ink-on-light-2);
+  --border-ink-3: var(--border-ink-on-light-3);
   
   --line-height-base: 1.5;
   --line-height-sm: 1.25;
   
-  --type-scale-down-1: .9em;
+  --type-scale-down-1: .85em;
+  --type-scale-down-2: .9em;
+  --type-scale-down-1: .95em;
   --type-scale-base: 1em;
   --type-scale-up-1: 1.25em;
   --type-scale-up-2: 1.5em;
   --type-scale-up-3: 1.8em;
   
   --spacer-base: 1em;
-  --spacer-1: calc(var(--spacer-base) * 1.5);
-  --spacer-2: calc(var(--spacer-base) * 2);
-  --spacer-3: calc(var(--spacer-base) * 3);
+  --spacer-up-1: calc(var(--spacer-base) * 1.5);
+  --spacer-up-2: calc(var(--spacer-base) * 2);
+  --spacer-up-3: calc(var(--spacer-base) * 3);
   
   --breakpoint-md: 560px;
   --breakpoint-lg: 990px;
 }
-*/
+
