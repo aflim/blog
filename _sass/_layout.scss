@@ -1,9 +1,9 @@
 .container {
-  max-inline-size: 560px;
+  max-inline-size: 520px;
   padding-inline: var(--spacer-base);
   margin-inline: auto;
   
-  @media all and (min-width: 720px) {
-    max-inline-size: 768px;
+  @media all and (min-width: var(--breakpoint-sm)) {
+    max-inline-size: 720px;
   }
 }
