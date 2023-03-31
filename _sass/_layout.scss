@@ -1,5 +1,9 @@
 .container {
-  max-inline-size: 45em;
+  max-inline-size: 560px;
   padding-inline: var(--spacer-base);
   margin-inline: auto;
+  
+  @media all and (min-width: 720px) {
+    max-inline-size: 768px;
+  }
 }
