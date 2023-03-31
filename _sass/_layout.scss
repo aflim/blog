@@ -1,5 +1,5 @@
 .container {
   max-inline-size: 45em;
-  padding-inline: $spacer-base;
+  padding-inline: var(--spacer-base);
   margin-inline: auto;
 }
