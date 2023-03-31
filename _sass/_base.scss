@@ -7,6 +7,10 @@ body {
   line-height: var(--line-height-base);
   color: var(--ink-1);
   background-color: var(--bg-1);
+  
+  @media (orientation: landscape) and (min-width: var(--breakpoint-md)){
+    font-size: 1.3rem;
+  }
 }
 
 
