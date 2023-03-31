@@ -54,7 +54,7 @@ Limit heading to three level
   <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
 </figure>
 
-Someone said:
+Someone on internet said:
 <figure>
   <blockquote cite="https://datatracker.ietf.org/doc/html/rfc1149">
     <p>
@@ -188,7 +188,7 @@ adder(2, 6);
 // > 8
 {% endhighlight %}
 
-with <code>```</code>
+with backtick shorthand <code>```</code>
 ```js
 // Example can be run directly in your JavaScript console
 
