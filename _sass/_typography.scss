@@ -81,6 +81,7 @@ abbr {
 
 figure {
   margin-inline: 0;
+  margin-block-start: 0;
   margin-block-end: var(--spacer-base);
   
   figcaption {
@@ -122,8 +123,7 @@ pre {
   background-color: var(--bg-2);
   
   .highlight,
-  .rough-table,
-  .lineno {
+  figure {
     padding: 0;
     margin: 0;
   }
