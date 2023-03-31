@@ -1,13 +1,5 @@
 .container {
-  max-inline-size: 540px;
+  max-inline-size: 45em;
   padding-inline: var(--spacer-base);
   margin-inline: auto;
-  
-  @media all and (min-width: 576px) {
-    max-inline-size: 720px;
-  }
-  
-  @media all and (min-width: 768px) {
-    max-inline-size: 960px;
-  }
 }
