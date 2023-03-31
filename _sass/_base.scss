@@ -4,9 +4,9 @@ body {
   font-family: sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
-  color: $ink-1;
-  background-color: $bg-1;
+  line-height: var(--line-height-base);
+  color: var(--ink-1);
+  background-color: var(--bg-1);
 }
 
 
@@ -15,7 +15,7 @@ a {
   
   &:hover,
   &:focus {
-    color: $ink-2;
+    color: red;
   }
   
   strong {
