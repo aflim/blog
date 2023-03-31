@@ -93,7 +93,7 @@ figure {
 
 blockquote {
   padding-inline-start: 1em;
-  margin-inline: .5em;
+  margin-inline: 0;
   font-size: var(--type-scale-down-1);
   color: var(--ink-2);
   border-inline-start: .15em solid var(--border-ink-2);
@@ -111,6 +111,7 @@ pre {
 }
 
 pre {
+  margin: 0;
   display: block;
   overflow: auto;
   color: var(--ink-2);
@@ -153,7 +154,7 @@ pre {
 table {
   margin-block-end: var(--spacer-base);
   width: 100%;
-  border: 0 solid var(--border-ink-2);
+  border: 1px solid var(--border-ink-2);
   border-collapse: collapse;
 }
 
