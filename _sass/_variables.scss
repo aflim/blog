@@ -34,7 +34,7 @@ $spacer-1: $spacer-base * 1.5;
 $spacer-2: $spacer-base * 2;
 $spacer-3: $spacer-base * 3;
   
-$breakpoint-md: 560px;
+$breakpoint-md: 576px;
 $breakpoint-lg: 990px;
 
 
@@ -89,7 +89,8 @@ $breakpoint-lg: 990px;
   --spacer-up-2: calc(var(--spacer-base) * 2);
   --spacer-up-3: calc(var(--spacer-base) * 3);
   
-  --breakpoint-md: 560px;
-  --breakpoint-lg: 990px;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
 }
 
