@@ -8,7 +8,7 @@ body {
   color: var(--ink-1);
   background-color: var(--bg-1);
   
-  @media (orientation: landscape) and (min-width: var(--breakpoint-md)){
+  @media all and (orientation: landscape){
     font-size: 2rem;
   }
 }
