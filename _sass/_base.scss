@@ -1,9 +1,5 @@
 /* base style */
 
-html {
-  font-size: 100%;
-}
-
 body {
   font-family: sans-serif;
   font-size: 1rem;
@@ -13,7 +9,7 @@ body {
   background-color: var(--bg-1);
   
   @media screen and (orientation: landscape) and (min-width: var(--breakpoint-sm)) {
-    font-size: 3rem;
+    font-size: 1.3rem;
   }
 }
 
