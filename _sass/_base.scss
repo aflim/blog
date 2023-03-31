@@ -8,11 +8,11 @@ body {
   color: var(--ink-1);
   background-color: var(--bg-1);
   
-  @media all and (min-width: 768px){
+  @media (orientation: landscape) and (min-width: 768px){
     font-size: 1.3rem;
   }
   
-  @media all and (min-width: 992px){
+  @media (orientation: landscape) and (min-width: 992px){
     font-size: 1.5rem;
   }
 }
