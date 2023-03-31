@@ -6,7 +6,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-block-start: 1em;
+  margin-block-start: var(--spacer-base);
   margin-block-end: .25em;
   font-weight: 700;
   line-height: var(--line-height-down-1);
@@ -93,7 +93,7 @@ figure {
 
 blockquote {
   padding-inline-start: 1em;
-  margin-inline: 0;
+  margin-inline: .5em;
   font-size: var(--type-scale-down-1);
   color: var(--ink-2);
   border-inline-start: .15em solid var(--border-ink-2);
@@ -122,8 +122,7 @@ pre {
   margin-block-end: var(--spacer-base);
   background-color: var(--bg-2);
   
-  .highlight,
-  figure {
+  .highlight {
     padding: 0;
     margin: 0;
   }
@@ -143,6 +142,12 @@ pre {
     user-select: none;
     opacity: .25;
   }
+}
+
+.rouge-table,
+.lineno {
+  padding: 0;
+  margin: 0;
 }
 
 table {
